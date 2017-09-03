@@ -1,4 +1,3 @@
-## com.fredfarid.src
 
 ### Init
 
