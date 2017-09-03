@@ -1,0 +1,77 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+@icon-font-path: "/public/vendor/bootstrap/dist/fonts/";
+
+@blur: 30px;
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  12.5% {
+    transform: translateX(-6px);
+  }
+  37.5% {
+    transform: translateX(5px);
+  }
+  62.5% {
+    transform: translateX(-3px);
+  }
+  87.5% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.shake {
+  animation: shake 400ms ease-in-out;
+}
+
+.login {
+  .modal-dialog {
+    max-width: 300px;
+    margin: 30px auto;
+    .modal-content {
+      .modal-header {
+        .glyphicon {
+          margin-right: 10px;
+        }
+      }
+      .modal-body {
+        .form-group:last-child {
+          margin: 0;
+          padding: 0;
+        }
+        .tab-pane {
+          margin-top: 15px;
+        }
+        .nav-tabs {
+          border-bottom: 0;
+        }
+      }
+      .modal-footer {
+        .form-group:last-child {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+  &:before {
+    content: "";
+    position: fixed;
+    left: -(@blur);
+    right: -(@blur);
+    top: -(@blur);
+    bottom: -(@blur);
+    z-index: -1;
+    display: block;
+    background-image: url("/public/images/fredfarid.jpg");
+    background-size: cover;
+    background-position: center;
+    -moz-filter: blur(@blur/2);
+    -webkit-filter: blur(@blur/2);
+    filter: blur(@blur/2);
+  }
+}

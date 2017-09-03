@@ -1,0 +1,10 @@
+*~
+\#*\#
+.DS_Store
+
+.trash
+
+node_modules
+npm-debug.log
+
+bower_components

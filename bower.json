@@ -1,0 +1,93 @@
+{
+  "name": "com.fredfarid.src",
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "fontawesome": "4.6.0",
+    "react": "0.13.2",
+    "react-bootstrap": "0.25.2",
+    "react-router": "0.13.3",
+    "react-router-bootstrap": "0.18.1",
+    "jquery": "2.2.4",
+    "marked": "0.3.5",
+    "moment": "2.13.0",
+    "lodash": "4.13.1",
+    "string": "3.3.1",
+    "angular-ng-sortablejs": "1.4.2",
+    "socket.io-client": "1.4.6"
+  },
+  "overrides": {
+    "marked": {
+      "main": [
+        "./marked.min.js"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    },
+    "moment": {
+      "main": [
+        "./min/moment.min.js"
+      ]
+    },
+    "lodash": {
+      "main": [
+        "./dist/lodash.min.js"
+      ]
+    },
+    "string": {
+      "main": [
+        "./dist/string.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/fonts/glyphicons-halflings-regular.*"
+      ]
+    },
+    "fontawesome": {
+      "main": [
+        "./css/font-awesome.min.css",
+        "./fonts/fontawesome-webfont.*"
+      ]
+    },
+    "react": {
+      "main": [
+        "./react.js",
+        "./react.min.js",
+        "./react-dom.js",
+        "./react-dom.min.js",
+        "./react-with-addons.js",
+        "./react-with-addons.min.js"
+      ]
+    },
+    "react-router": {
+      "main": [
+        "./build/umd/ReactRouter.js"
+      ]
+    },
+    "react-bootstrap": {
+      "main": [
+        "./react-bootstrap.js",
+        "./react-bootstrap.min.js"
+      ]
+    },
+    "react-router-bootstrap": {
+      "main": [
+        "./lib/ReactRouterBootstrap.js"
+      ]
+    },
+    "angular-ng-sortablejs": {
+      "main": [
+        "./Sortable.js",
+        "./react-sortable-mixin.js"
+      ]
+    },
+    "socket.io-client": {
+      "main": [
+        "./socket.io.js"
+      ]
+    }
+  }
+}

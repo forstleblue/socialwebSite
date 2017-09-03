@@ -1,0 +1,27 @@
+{
+  "name": "com.fredfarid.src",
+  "private": true,
+  "scripts": {
+    "develop": "npm install && bower install && gulp && gulp watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.0.4",
+    "gulp-less": "3.3.0",
+    "gulp-livereload": "3.8.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-util": "3.0.8",
+    "gulp-watch": "4.3.11",
+    "less-plugin-autoprefix": "1.5.1",
+    "main-bower-files": "2.13.1",
+    "run-sequence": "1.2.2",
+    "webpack": "3.3.0"
+  }
+}
